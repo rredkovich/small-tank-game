@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="22" height="13" tilewidth="48" tileheight="48">
+ <tileset firstgid="1" name="triggers" tilewidth="32" tileheight="32">
+  <image source="graphics/triggers.png" width="192" height="32"/>
+ </tileset>
+ <tileset firstgid="7" name="clouds" tilewidth="48" tileheight="32">
+  <image source="graphics/cloud.gif" width="194" height="32"/>
+ </tileset>
+ <tileset firstgid="11" name="background" tilewidth="48" tileheight="48">
+  <image source="graphics/bg.jpg" width="1056" height="563"/>
+ </tileset>
+ <tileset firstgid="253" name="tileset" tilewidth="48" tileheight="48">
+  <image source="graphics/tileset.png" width="240" height="96"/>
+ </tileset>
+ <layer name="background" width="22" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzVw1N3FgAAANDvPdt2a9m2ay3btm1jC2vZtm3btm27h+7f6J5zowQCgahGM7oxjGksYxvHuMYzvglMaCITm8SkJjO5KUxpKlObxrSmM70ZzGgmMxtkFoPNajazm8Oc5jK3ecxrPvNbwIIWsrBFLGoxi1vCkpaytGUsaznLW8GKVrKyVaxqiNUMtbo1rGkta1vHutazvg1saCMb28SmNrO5LWxpK1vbxra2s70d7GgnO9vFrnazuz3saS9728e+9rO/AxzoIAc7xKEOc7gjHOkoRzvGsY5zvBMMM9yJTnKyU4xwqpFOc7oznOksZzvHuc5zvgtc6CIXu8SlLnO5K1zpKle7xrWuc70b3OgmN7vFrW5zuzvc6S53u8e97nO/BzzoIQ97xKMe87gnPOkpT3vGs57zvBe86CUve8WrXvO6N7zpLW97x7ve874PfOgjH/vEpz7zuS986Stf+8a3vvO9H/zoJz/7xa9+87s//Okvf/vHv4H/zz9x53xQ
+  </data>
+ </layer>
+ <layer name="set" width="22" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAkZGBgYWRuqa9w9I/wVz8KslxV5moFpWKCZkLkF5BlR3wsz9zwARw+UumDw+jGweOsalH5d6SjEAQQMWsQ==
+  </data>
+ </layer>
+ <objectgroup color="#a42a0c" name="triggers" width="22" height="13" visible="0">
+  <properties>
+   <property name="platform" value=""/>
+   <property name="some" value=""/>
+  </properties>
+  <object name="player" gid="1" x="76" y="517"/>
+  <object name="tlrb" x="-4" y="433" width="49" height="97">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object name="tlrb" x="33" y="530" width="406" height="40">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object name="tlrb" x="435" y="481" width="97" height="47">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object name="tlrb" x="716" y="481" width="95" height="59">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object name="tlrb" x="810" y="529" width="250" height="59">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object name="tlrb" x="1053" y="-1" width="12" height="529">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object name="tlrb" x="697" y="337" width="19" height="207">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object name="tlrb" x="530" y="384" width="40" height="109">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object name="tlrb" x="571" y="384" width="66" height="39">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object name="tlrb" x="626" y="337" width="68" height="47">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object name="tlrb" x="-1" y="1" width="4" height="436">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+  <object name="tlrb" x="-1" y="2" width="1059" height="8">
+   <properties>
+    <property name="blockers" value="tlrb"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="clouds" width="22" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi8gB2IOYCYE4i5iBCnl/2jYBSMAsoAAHdfAGc=
+  </data>
+ </layer>
+ <layer name="Tile Layer 4" width="22" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjAL6AgAEeAAB
+  </data>
+ </layer>
+</map>
